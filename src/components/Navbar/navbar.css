@@ -1,0 +1,73 @@
+.header-main {
+    background-color: transparent;
+}
+
+.header-container {
+    max-width: 1210px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background-color: skyblue;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+}
+
+.logo {
+    height: 24px;
+    width: 127px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex: 1;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 16px;
+    line-height: 90px;
+}
+
+.login-section {
+    min-height: 20px;
+}
+
+.login-section ul {
+    align-items: center;
+    display: flex;
+}
+
+.create-listing-btn {
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 15px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.create-listing-btn:hover {
+    background-color: #0056b3;
+}
+
+.arrow {
+    border: solid #fff;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 3px;
+    margin-left: 6px;
+}
+
+.down {
+    transform: rotate(45deg);
+}
+
+li:hover {
+    background-color: rgba(255,255,255,0.2);
+}
