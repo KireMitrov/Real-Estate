@@ -17,7 +17,8 @@ export const Navbar = () => {
                 <div className="main-nav">
                     <ul>
                         {navBarData.map((item) => (
-                            <li key={item.name}>{item.title}
+                            <li key={item.name}>
+                                <a href="">{item.title}</a>
                             <span className='arrow down'></span>
                             </li>
                         ))}

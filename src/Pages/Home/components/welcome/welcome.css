@@ -1,0 +1,149 @@
+.welcome-main-container{
+    display: flex;
+}
+
+.background-overlay {
+    background-color: transparent;
+    background-image: linear-gradient(180deg,rgba(0,66,116,0.35) 0%, #004274 100%);
+    height: 75vh;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.slideshow {
+    list-style-type: none;
+    height: 75vh;
+}
+
+.slideshow,
+.slideshow:after {
+    top: -16px;
+    position: fixed;
+    width: 100%;
+    height: 75vh;
+    left: 0px;
+    z-index: 0;
+}
+
+.slideshow li span {
+    position: absolute;
+    width: 100%;
+    height: 75vh;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    z-index: 0;
+    animation: imageAnimation 18s linear infinite;
+}
+
+
+
+.slideshow li:nth-child(1) span {
+    background-image: url("https://houzez-real-estate-react.netlify.app/static/media/miami-beach.bc137e772a4f3e42074a.jpg");
+    animation-delay: 0s;
+}
+
+.slideshow li:nth-child(2) span {
+    background-image: url("https://houzez-real-estate-react.netlify.app/static/media/chicago.8d29bd36bf7bdd9921ad.jpg");
+    animation-delay: 6s;
+}
+
+.slideshow li:nth-child(3) span {
+    background-image: url("https://houzez-real-estate-react.netlify.app/static/media/new-york.d964110a82e0e635a149.jpg");
+    animation-delay: 12s;
+}
+
+
+
+@keyframes imageAnimation {
+
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+    
+    60% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.no-cssanimations .cb-slideshow li span {
+    opacity: 1;
+}
+
+.welcome-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+    z-index: 10;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome-text h2 {
+    font-family: "Roboto";
+    font-size: 45px;
+}
+
+.welcome-text p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.welcome-cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: #004274;
+    height: 250px;
+    top:75vh;
+}
+
+.welcome-cards-wrapper {
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    color: #FFF;
+}
+
+.welcome-card {
+    background-color: transparent;
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.1) 0%,rgba(242,41,91,0) 100%);
+    width: calc(100%/3 - 2px);
+}
+
+
+.welcome-line-bottom {
+    background-color: #FFF;
+    border-top: 90px solid #004274;
+    border-right: 1700px solid transparent;
+}
