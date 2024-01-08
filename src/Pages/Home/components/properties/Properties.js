@@ -8,6 +8,8 @@ import "slick-carousel/slick/slick-theme.css"
 function Properties() {
 
   const settings = {
+    autoplay: true,
+    autoplaySpeed: 2000,
     dots: true,
     infinite: true,
     speed: 500,
