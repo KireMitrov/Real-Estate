@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar.css';
-import { navBarData } from './navBarData';
+import { navBarData } from '../../assets/data/navBarData';
 
 export const Navbar = () => {
     console.log(navBarData);
