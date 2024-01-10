@@ -17,17 +17,17 @@ function Welcome() {
             <div className='welcome-cards-container'>
                 <div className='welcome-cards-wrapper'>
                     <div className='welcome-card'>
-                        <div>Easy to get started</div>
+                        <div className='welcome-card-title'>Easy to get started</div>
                         <div className='welcome-card-text'>Get ready to launch your realty site in minutes without any previous experience</div>
                         <div className='welcome-card-link'>Learn more</div>
                     </div>
                     <div className='welcome-card'>
-                        <div>Highly customizable</div>
+                        <div className='welcome-card-title'>Highly customizable</div>
                         <div className='welcome-card-text'>Customize the site to your expectations by using all of the theme features</div>
                         <div className='welcome-card-link'>Learn more</div>
                     </div>
                     <div className='welcome-card'>
-                        <div>Drag-and-drop based</div>
+                        <div className='welcome-card-title'>Drag-and-drop based</div>
                         <div className='welcome-card-text'>design your page by simply dragging the features using Elementor page builder</div>
                         <div className='welcome-card-link'>Learn more</div>
                     </div>

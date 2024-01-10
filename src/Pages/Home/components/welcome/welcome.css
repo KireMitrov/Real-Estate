@@ -124,7 +124,7 @@
 }
 
 .welcome-cards-wrapper {
-    max-width: 1140px;
+    max-width: 72%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -132,6 +132,7 @@
     align-items: center;
     justify-self: center;
     color: #FFF;
+    gap: 1px;
 }
 
 .welcome-card {
@@ -141,17 +142,29 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(180deg,rgba(255,255,255,0.1) 0%,rgba(242,41,91,0) 100%);
-    width: calc(100%/3 - 2px);
+    height: 253px;
+    padding: 20px;
 }
+
+.welcome-card-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .welcome-card-text {
     font-size: 17px;
     text-align: center;
+    color: rgba(255,255,255,.78);
     width: 80%;
     padding: 10px 0 20px;
+    font-family: 'Work Sans', "Roboto", sans-serif;
 }
 
 .welcome-card-link {
     color: #00aeef;
+    font-family: 'Work Sans', "Roboto", sans-serif;
+    font-weight: 500;
 }
 .welcome-line-bottom {
     background-color: #FFF;
