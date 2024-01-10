@@ -1,0 +1,34 @@
+.form-paralax-background {
+    background-image: url("../../../../../public/paralax1.jpg");
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-main-container{
+    display: flex;
+    margin: auto;
+    align-items:center;
+    justify-content:center;
+    height: 100vh;
+    width: 70%;
+    flex-direction: row;
+    color: #fff;
+}
+
+.form-left-side {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.form-right-side {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}

@@ -3,14 +3,11 @@
     flex-wrap: wrap;
     margin: auto;
     width: 920px;
-    border: 1px solid black;
     color: #000;
 }
 
 .layout-row {
     max-width: 33%;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .layout-row img {

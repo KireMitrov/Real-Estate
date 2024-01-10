@@ -4,6 +4,7 @@ import Welcome from './components/welcome/Welcome'
 import Properties from './components/properties/Properties'
 import Paralax from './components/paralax/Paralax'
 import Layouts from './components/layouts/Layouts'
+import Form from './components/form/Form'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Properties />
       <Paralax />
       <Layouts />
+      <Form />
     </div>
   )
 }

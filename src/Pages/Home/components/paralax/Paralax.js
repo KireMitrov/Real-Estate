@@ -11,9 +11,7 @@ function Paralax() {
             </div>
             <div className='paralax-text-container'>
                 <div className='paralax-text'>Houzez offers a wide range of drag-and-drop widgets to assist you in designing your pages</div>
-                <div className="paralax-cards-container">
-                    
-                </div>
+                <div className="paralax-cards-container"></div>
             </div>
         </div>
     )
