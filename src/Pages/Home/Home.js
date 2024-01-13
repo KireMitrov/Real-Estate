@@ -6,6 +6,7 @@ import Paralax from './components/paralax/Paralax'
 import Layouts from './components/layouts/Layouts'
 import Form from './components/form/Form'
 import Types from './components/types/Types'
+import Agents from './components/agents/Agents'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Layouts />
       <Form />
       <Types />
+      <Agents />
     </div>
   )
 }

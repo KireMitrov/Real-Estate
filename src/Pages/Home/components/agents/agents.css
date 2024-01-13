@@ -1,0 +1,43 @@
+.agents-main-container {
+    background-color: #f8f8f8;
+}
+
+.agents-card-container {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    gap:1px;
+}
+
+.agent-card{
+    padding: 35px;
+    text-align: center;
+    margin-left: 1px;
+    background-color: #fff;
+}
+
+.agent-card img {
+    width: 150px;
+    border-radius: 100px;
+}
+
+.agent-name{
+    color:#00aeef;
+    font-weight: 500;
+}
+
+.agent-title {
+    font-family: "Work Sans", "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.agent-description {
+    color:#636363;
+}
+
+.agent-link {
+    color: #00aeef;
+    font-weight: 500;
+}

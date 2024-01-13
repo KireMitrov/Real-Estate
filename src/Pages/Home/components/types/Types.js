@@ -21,21 +21,21 @@ function Types() {
             <div className='types-column'>
                 <div className='types-card'>
                     <div className='types-card-text'>
-                        <div>APARTMENT</div>
+                        <div className='types-card-text-title'>APARTMENT</div>
                         <div>10 PROPERTIES</div>
                     </div>
                     <img src={img1} alt="" />
                 </div>
                 <div className='types-card'>
                     <div className='types-card-text'>
-                        <div>APARTMENT</div>
+                        <div className='types-card-text-title'>APARTMENT</div>
                         <div>10 PROPERTIES</div>
                     </div>
                     <img src={img2} alt="" />
                 </div>
                 <div className='types-card'>
                     <div className='types-card-text'>
-                        <div>APARTMENT</div>
+                        <div className='types-card-text-title'>APARTMENT</div>
                         <div>10 PROPERTIES</div>
                     </div>
                     <img src={img3} alt="" />
@@ -44,21 +44,21 @@ function Types() {
             <div className='types-column'>
                 <div className='types-card'>
                     <div className='types-card-text'>
-                        <div>APARTMENT</div>
+                        <div className='types-card-text-title'>APARTMENT</div>
                         <div>10 PROPERTIES</div>
                     </div>
                     <img src={img4} alt="" />
                 </div>
                 <div className='types-card'>
                     <div className='types-card-text'>
-                        <div>APARTMENT</div>
+                        <div className='types-card-text-title'>APARTMENT</div>
                         <div>10 PROPERTIES</div>
                     </div>
                     <img src={img5} alt="" />
                 </div>
                 <div className='types-card'>
                     <div className='types-card-text'>
-                        <div>APARTMENT</div>
+                        <div className='types-card-text-title'>APARTMENT</div>
                         <div>10 PROPERTIES</div>
                     </div>
                     <img src={img6} alt="" />
@@ -67,21 +67,21 @@ function Types() {
             <div className='types-column'>
                 <div className='types-card'>
                     <div className='types-card-text'>
-                        <div>APARTMENT</div>
+                        <div className='types-card-text-title'>APARTMENT</div>
                         <div>10 PROPERTIES</div>
                     </div>
                     <img src={img7} alt="" />
                 </div>
                 <div className='types-card'>
                     <div className='types-card-text'>
-                        <div>APARTMENT</div>
+                        <div className='types-card-text-title'>APARTMENT</div>
                         <div>10 PROPERTIES</div>
                     </div>
                     <img src={img8} alt="" />
                 </div>
                 <div className='types-card'>
                     <div className='types-card-text'>
-                        <div>APARTMENT</div>
+                        <div className='types-card-text-title'>APARTMENT</div>
                         <div>10 PROPERTIES</div>
                     </div>
                     <img src={img9} alt="" />
