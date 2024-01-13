@@ -7,6 +7,7 @@ import Layouts from './components/layouts/Layouts'
 import Form from './components/form/Form'
 import Types from './components/types/Types'
 import Agents from './components/agents/Agents'
+import Testimonials from './components/testimonials/Testimonials'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <Form />
       <Types />
       <Agents />
+      <Testimonials />
     </div>
   )
 }

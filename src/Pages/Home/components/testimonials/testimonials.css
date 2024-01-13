@@ -1,0 +1,28 @@
+.testimonial-main-container {
+    height: 100vh;
+}
+
+.testimonials-card-container {
+    width: 75%;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-card {
+    background-color: #edf9ff;
+}
+
+.card-testimonial {}
+
+.card-reviewer-container {
+    display: flex;
+    align-items: center;
+}
+
+.card-reviewer-container img {
+    width: 150px;
+    border-radius: 100px;
+}
