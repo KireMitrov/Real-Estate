@@ -9,6 +9,7 @@ import Types from './components/types/Types'
 import Agents from './components/agents/Agents'
 import Testimonials from './components/testimonials/Testimonials'
 import Logos from './components/logos/Logos'
+import Footer from "../../components/Footer/Footer"
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       <Agents />
       <Testimonials />
       <Logos />
+      <Footer />
     </div>
   )
 }
