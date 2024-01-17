@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import { navBarData } from '../../assets/data/navBarData';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
     console.log(navBarData);
@@ -19,14 +20,15 @@ export const Navbar = () => {
                         {navBarData.map((item) => (
                             <li key={item.name}>
                                 <a href="">{item.title}</a>
-                            <span className='arrow down'></span>
+                                <span className='arrow down'></span>
                             </li>
                         ))}
+                        <li><Link to="/contact">CONTACT</Link></li>
                     </ul>
                 </div>
                 <div className="login-section">
                     <ul>
-                        <li>icon</li>
+                        <li><i class="fa-regular fa-circle-user"></i></li>
                         <li>
                             <button href='/' className='create-listing-btn'>CREATE A LISTING</button>
                         </li>

@@ -103,14 +103,6 @@ export const navBarData = [
       ],
     },
     {
-      title: "CONTACT",
-      path: "/contact",
-    },
-    {
-      title: "ABOUT US",
-      path: "/about-us",
-    },
-    {
       title: "SEARCHES",
       path: "/searches",
   

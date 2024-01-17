@@ -26,3 +26,8 @@ button {
 ul {
   list-style-type: none;
 }
+
+.wrapper {
+  width: 75%;
+  margin: auto;
+}

@@ -1,0 +1,53 @@
+.contact-form-main {
+    background-color: #f8f8f8;
+}
+
+.contact-form-body {
+    display: flex;
+    gap: 32px;
+}
+
+.contact-form-left {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 60%;
+    gap: 16px;
+}
+
+.contact-form-top {
+    background-color: #fff;
+    font-family: "work sans", "roboto", sans-serif;
+    font-size: 17px;
+    color: #222222;
+    padding: 50px 50px 1px;
+}
+
+.contact-form-main form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-name {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form-name input {
+    display: block;
+}
+
+.contact-form-right {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
+    gap: 16px;
+}
+
+.contact-inquiries {
+    background-color: #fff;
+}
+
+.contact-form-address {
+    background-color: #fff;
+
+}

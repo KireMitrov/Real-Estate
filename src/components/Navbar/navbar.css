@@ -39,10 +39,12 @@
 }
 
 .main-nav a {
+    display: inline-block;
     font-family: "Roboto Condensed";
     font-size: 14px;
     text-decoration: none;
     color: inherit;
+    height: 100%;
 }
 
 .login-section {
