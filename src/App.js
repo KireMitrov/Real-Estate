@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Pages/Home/Home';
 import { Navbar } from './components/Navbar/Navbar';
 import Contact from './Pages/Contact/Contact';
+import About from './Pages/About/About';
 
 function App() {
   return (
@@ -10,9 +11,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
-      {/* <Home /> */}
     </div>
   );
 }

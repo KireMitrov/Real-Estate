@@ -1,0 +1,31 @@
+.teams-main-container {
+    background-color: #f8f8f8;
+}
+
+.team-card-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 10px;
+}
+
+.team-card-container img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.team-card {
+    display: grid;
+    width: 23%;
+}
+
+.team-content {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    justify-self: center;
+    font-family: "Work Sans" sans-serif;
+    font-size: 15px;
+}

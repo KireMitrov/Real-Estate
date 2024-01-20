@@ -1,0 +1,17 @@
+.services-main-container {
+    display: flex;
+    gap:16px;
+}
+
+.services-card {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    width: 23%;
+}
+
+.services-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

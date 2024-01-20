@@ -1,0 +1,36 @@
+.blog-main-container {
+    background-color: #f8f8f8;
+}
+
+.blog-cards-main-container {
+    display: flex;
+    gap:16px;
+}
+
+.blog-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+
+.blog-card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-card-body {
+    flex: 0 0 60%
+}
+
+.blog-title {
+    color: #000;
+}
+
+.blog-text {
+    color: #636363;
+}
+
+.blog-link {
+    color: #00aeef
+}

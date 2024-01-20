@@ -146,6 +146,12 @@
     padding: 20px;
 }
 
+.welcome-card:hover {
+    box-shadow: 0 70px 70px rgba(0,0,0,.2);
+    transform: translate(0,-10px);
+    transition: .2s;
+}
+
 .welcome-card-title {
     font-family: "Roboto", sans-serif;
     font-size: 18px;

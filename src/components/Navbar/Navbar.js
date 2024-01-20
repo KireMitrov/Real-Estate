@@ -24,6 +24,7 @@ export const Navbar = () => {
                             </li>
                         ))}
                         <li><Link to="/contact">CONTACT</Link></li>
+                        <li><Link to="/about">ABOUT US</Link></li>
                     </ul>
                 </div>
                 <div className="login-section">
