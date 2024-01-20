@@ -1,5 +1,6 @@
 import React from 'react';
 import "./welcome.css";
+import { Fade } from "react-awesome-reveal";
 
 function Welcome() {
     return (
@@ -11,8 +12,10 @@ function Welcome() {
                 <li><span></span></li>
             </ul>
             <div className="welcome-text">
-                <h2>Welcome to Houzez 2.0</h2>
-                <p>Packed with 100+ new features and improvements, it is the biggest <br></br>all-in-one solution for real estate companies and professionals</p>
+                <Fade duration={3000}>
+                    <h2>Welcome to Houzez 2.0</h2>
+                    <p>Packed with 100+ new features and improvements, it is the biggest <br></br>all-in-one solution for real estate companies and professionals</p>
+                </Fade>
             </div>
             <div className='welcome-cards-container'>
                 <div className='welcome-cards-wrapper'>
@@ -33,7 +36,7 @@ function Welcome() {
                     </div>
                 </div>
             </div>
-                    <div className='welcome-line-bottom'></div>
+            <div className='welcome-line-bottom'></div>
         </div>
     )
 }

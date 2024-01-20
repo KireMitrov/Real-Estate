@@ -101,15 +101,18 @@
 }
 
 .welcome-text h2 {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 45px;
+    font-weight: 300;
 }
 
 .welcome-text p {
+    font-family: "work sans", sans-serif;
     text-align: center;
     font-size: 25px;
     max-width: 814px;
     margin: 0;
+    line-height: 1.5em;
 }
 
 .welcome-cards-container {
@@ -155,7 +158,7 @@
 .welcome-card-title {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .welcome-card-text {
