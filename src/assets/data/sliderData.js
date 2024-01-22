@@ -11,27 +11,27 @@ export const sliderData = [
       price: "$570,000",
       bedrooms: "4",
       bathroom: "2",
-      area: "3400 sq ft",
+      area: "3400",
       tag: "for sale",
       imageSrc: img1,
-      type: "APARTMENT"
+      type: "STUDIO"
     },
     {
         title: "Renovated studio",
         price: "$540,000",
         bedrooms: "4",
         bathroom: "2",
-        area: "1200 sq ft",
+        area: "1200",
         tag: "for sale",
         imageSrc: img2,
-        type: "APARTMENT"
+        type: "STUDIO"
     },
     {
         title: "Penthouse apartment",
-        price: "876,000",
+        price: "$876,000",
         bedrooms: "3",
         bathroom: "2",
-        area: "2560 sq ft",
+        area: "2560",
         tag: "for sale",
         imageSrc: img3,
         type: "APARTMENT"
@@ -41,7 +41,7 @@ export const sliderData = [
         price: "$97,0000",
         bedrooms: "1",
         bathroom: "2",
-        area: "1560 sq ft",
+        area: "1560",
         tag: "for sale",
         imageSrc: img4,
         type: "APARTMENT"
@@ -51,7 +51,7 @@ export const sliderData = [
         price: "$13,000/mo",
         bedrooms: "4",
         bathroom: "2",
-        area: "1200 sq ft",
+        area: "1200",
         tag: "for rent",
         imageSrc: img5,
         type: "APARTMENT"
@@ -61,7 +61,7 @@ export const sliderData = [
         price: "$4,500/mo",
         bedrooms: "4",
         bathroom: "2",
-        area: "1200 sq ft",
+        area: "1200",
         tag: "for rent",
         imageSrc: img6,
         type: "APARTMENT"
