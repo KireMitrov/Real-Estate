@@ -1,11 +1,12 @@
+
 .paralax-background {
     background-image: url("../../../../../public/paralax.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     position: absolute;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
 }
@@ -31,11 +32,12 @@
     border-right: 1700px solid #fff; 
 }
 
-.paralax-text-container {
+.paralax-body-container {
     display: flex;
     align-items: center;
     justify-content:center;
-    height: 100vh;
+    gap:32px;
+    min-height: 100vh;
     width: 100%;
     flex-direction: column;
 }
@@ -43,6 +45,7 @@
 .paralax-text {
     font-family: "Roboto", sans-serif;
     font-size: 30px;
+    font-weight: 100;
     color: #fff;
     width: 714px;
     line-height: 1.35em;
@@ -53,6 +56,30 @@
 .paralax-cards-container {
     width: 940px;
     height: 155px;
-    background-color: rgba(0,66,116,.71);
     z-index: 1;
+    display: flex;
+    gap:2px;
+}
+
+.paralax-card {
+    background-color: rgba(0,66,116,.71);
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+
+.paralax-card:hover {
+    transform: translate(0, -10px);
+    transition: .2s;
+    box-shadow: 0 70px 70px rgba(0,0,0,.2);
+}
+
+.paralax-card-text {
+    font-family: "roboto condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
 }
