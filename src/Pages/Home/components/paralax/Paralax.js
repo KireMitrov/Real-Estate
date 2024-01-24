@@ -1,5 +1,6 @@
 import React from 'react'
 import "./paralax.css"
+import { Fade } from 'react-awesome-reveal'
 import icon1 from '../../../../assets/images/homePage/paralax/icon1.webp'
 import icon2 from '../../../../assets/images/homePage/paralax/icon2.png'
 import icon3 from '../../../../assets/images/homePage/paralax/icon3.png'
@@ -14,7 +15,9 @@ function Paralax() {
                 <div className='paralax-line-bottom'></div>
             </div>
             <div className='paralax-body-container'>
-                <div className='paralax-text'>Houzez offers a wide range of drag-and-drop widgets to assist you in designing your pages</div>
+                <Fade duration={2500}>
+                    <div className='paralax-text'>Houzez offers a wide range of drag-and-drop widgets to assist you in designing your pages</div>
+                </Fade>
                 <div className="paralax-cards-container">
                     <div className='paralax-card'>
                         <img src={icon1} alt="icon search" />
