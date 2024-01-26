@@ -1,19 +1,30 @@
 .agents-main-container {
     background-color: #f8f8f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .agents-card-container {
     width: 75%;
-    margin: auto;
+    margin: 16px auto auto auto;
     display: flex;
-    gap:1px;
+    gap: 2px;
 }
 
-.agent-card{
+.agent-card {
     padding: 35px;
     text-align: center;
     margin-left: 1px;
     background-color: #fff;
+}
+
+.agent-card:hover {
+    box-shadow: 0 70px 70px rgba(0, 0, 0, .2);
+    transform: translate(0,-10px);
+    transition: .2s;
 }
 
 .agent-card img {
@@ -21,8 +32,9 @@
     border-radius: 100px;
 }
 
-.agent-name{
-    color:#00aeef;
+.agent-name {
+    padding-top: 35px;
+    color: #00aeef;
     font-weight: 500;
 }
 
@@ -34,7 +46,8 @@
 }
 
 .agent-description {
-    color:#636363;
+    color: #636363;
+    padding: 20px 0;
 }
 
 .agent-link {
