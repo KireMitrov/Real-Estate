@@ -1,7 +1,7 @@
 import React from 'react'
 import "./paralax.css"
 import { Fade } from 'react-awesome-reveal'
-import icon1 from '../../../../assets/images/homePage/paralax/icon1.webp'
+import icon1 from '../../../../assets/images/homePage/paralax/icon1.png'
 import icon2 from '../../../../assets/images/homePage/paralax/icon2.png'
 import icon3 from '../../../../assets/images/homePage/paralax/icon3.png'
 import icon4 from '../../../../assets/images/homePage/paralax/icon4.png'

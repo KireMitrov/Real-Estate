@@ -1,28 +1,45 @@
 .testimonial-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
+    justify-content: center;
 }
 
 .testimonials-card-container {
     width: 75%;
-    height: 70%;
-    margin: auto;
+    margin: 20px auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: 32px;
 }
 
 .testimonial-card {
     background-color: #edf9ff;
+    padding: 40px;
+    width: 33%;
 }
 
-.card-testimonial {}
+.quotation {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.testemonial-card-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
 
 .card-reviewer-container {
     display: flex;
     align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
 }
 
 .card-reviewer-container img {
-    width: 150px;
+    width: 120px;
     border-radius: 100px;
+    margin-right: 20px;
 }
