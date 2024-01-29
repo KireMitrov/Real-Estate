@@ -23,7 +23,7 @@ function Paralax() {
                         <img src={icon1} alt="icon search" />
                         <div className='paralax-card-text'>LOOKING TO BUY</div>
                     </div>
-                    {/* <div className='paralax-card'>
+                    <div className='paralax-card'>
                         <img src={icon2} alt="icon sell" />
                         <div className='paralax-card-text'>SELL YOUR HOME</div>
                     </div>
@@ -34,7 +34,7 @@ function Paralax() {
                     <div className='paralax-card'>
                         <img src={icon4} alt="icon help" />
                         <div className='paralax-card-text'>NEED HELP?</div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </div>
