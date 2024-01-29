@@ -16,7 +16,7 @@ function Home() {
     <div className='home-main-container'>
       <Welcome />
       <Properties />
-      <Paralax />
+      {/* <Paralax /> */}
       <Layouts />
       <Form />
       <Types />
