@@ -1,10 +1,10 @@
 import React from 'react'
 import "./paralax.css"
 import { Fade } from 'react-awesome-reveal'
-// import icon1 from '../../../../assets/images/homePage/paralax/icon1.png'
-// import icon2 from '../../../../assets/images/homePage/paralax/icon2.png'
-// import icon3 from '../../../../assets/images/homePage/paralax/icon3.png'
-// import icon4 from '../../../../assets/images/homePage/paralax/icon4.png'
+import icon1 from '../../../../assets/images/homePage/paralax/icon1.png'
+import icon2 from '../../../../assets/images/homePage/paralax/icon2.png'
+import icon3 from '../../../../assets/images/homePage/paralax/icon3.png'
+import icon4 from '../../../../assets/images/homePage/paralax/icon4.png'
 
 function Paralax() {
     return (
@@ -20,7 +20,7 @@ function Paralax() {
                 </Fade>
                 <div className="paralax-cards-container">
                     <div className='paralax-card'>
-                        {/* <img src={require(`../../../../assets/images/homePage/paralax/icon1.png`)} alt="icon search" /> */}
+                        <img src={icon1} alt="icon search" />
                         <div className='paralax-card-text'>LOOKING TO BUY</div>
                     </div>
                     {/* <div className='paralax-card'>
