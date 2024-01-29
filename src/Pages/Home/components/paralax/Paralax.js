@@ -20,7 +20,7 @@ function Paralax() {
                 </Fade>
                 <div className="paralax-cards-container">
                     <div className='paralax-card'>
-                        <img src={require(`../../../../assets/images/homePage/paralax/icon1.png`)} alt="icon search" />
+                        {/* <img src={require(`../../../../assets/images/homePage/paralax/icon1.png`)} alt="icon search" /> */}
                         <div className='paralax-card-text'>LOOKING TO BUY</div>
                     </div>
                     {/* <div className='paralax-card'>
