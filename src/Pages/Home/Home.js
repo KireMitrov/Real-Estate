@@ -14,16 +14,16 @@ import Footer from "../../components/Footer/Footer"
 function Home() {
   return (
     <div className='home-main-container'>
-      <Welcome />
-      <Properties />
-      {/* <Paralax /> */}
-      <Layouts />
-      <Form />
-      <Types />
-      <Agents />
-      <Testimonials />
-      <Logos />
-      <Footer />
+      {/* <Welcome /> */}
+      {/* <Properties /> */}
+      <Paralax />
+      {/* <Layouts /> */}
+      {/* <Form /> */}
+      {/* <Types /> */}
+      {/* <Agents /> */}
+      {/* <Testimonials /> */}
+      {/* <Logos /> */}
+      {/* <Footer /> */}
     </div>
   )
 }
