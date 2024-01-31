@@ -5,12 +5,13 @@
 .contact-form-body {
     display: flex;
     gap: 32px;
+    padding: 70px 10px 32px 10px;
 }
 
 .contact-form-left {
     display: flex;
     flex-direction: column;
-    flex: 0 0 60%;
+    flex: 0 0 65%;
     gap: 16px;
 }
 
@@ -18,36 +19,125 @@
     background-color: #fff;
     font-family: "work sans", "roboto", sans-serif;
     font-size: 17px;
+    font-weight: 300;
     color: #222222;
-    padding: 50px 50px 1px;
+    padding: 50px 50px 16px;
 }
 
 .contact-form-main form {
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    padding: 20px 50px 50px;
+}
+
+.contact-form-main label {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
 }
 
 .contact-form-name {
     display: flex;
     justify-content: space-between;
+    gap: 16px;
 }
-.contact-form-name input {
+
+.contact-form-row {
+    width: 50%;
+}
+
+.contact-form-row input {
+    width: 90%;
+}
+
+.contact-form-main input, textarea {
     display: block;
+    padding: 5px 14px;
+    border: 1px solid #dce0e0;
+    line-height: 1.4;
+    font-size: 15px;
+    min-height: 35px;
+    border-radius: 3px;
+    margin-bottom: 16px;
 }
+
+::placeholder {
+    color: #1f2124;
+    opacity: 1;
+}
+
+.contact-form-main button {
+    background-color: #00aeff;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 1;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    padding: 12px;
+}
+
+.mandatory {
+    color:red;
+}
+
 
 .contact-form-right {
     display: flex;
     flex-direction: column;
     flex: 0 0 30%;
     gap: 16px;
+    font-family: "Work Sans", sans-serif;
 }
 
 .contact-inquiries {
     background-color: #fff;
+    padding: 30px 30px 15px;
 }
 
 .contact-form-address {
     background-color: #fff;
-
+    padding: 30px 30px 15px;
 }
+
+.social-media-icons {
+    display: flex;
+    gap: 3px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    color: #fff;
+}
+
+.icon:hover {
+    transform: scale(0.9);
+    transition: .3s;
+}
+
+.facebook {
+     background-color: #3b5998;
+ }
+
+ .twitter {
+    background-color: #1da1fa;
+ }
+
+ .youtube {
+    background-color: #cd201f;
+ }
+ .linkedin {
+    background-color: #0077b5;
+ }
+ .instagram {
+    background-color: #262626;
+ }
+ .skype {
+    background-color: #00aff0;
+ }
