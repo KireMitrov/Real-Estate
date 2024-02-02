@@ -49,7 +49,7 @@
 
 .about-header {
     font-family: "roboto", sans-serif;
-    margin-bottom: 42px;
+    padding: 86px 0 42px 0;
 }
 
 .about-header h2 {
