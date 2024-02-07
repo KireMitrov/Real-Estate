@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './navbar.css';
 import { navBarData } from '../../assets/data/navBarData';
-import { Link } from 'react-router-dom';
+import Menuitems from './components/menuItems/Menuitems';
+
 
 export const Navbar = () => {
-    console.log(navBarData);
 
+    const [ showFavorites, SetShowFavorites] = useState(false);
+    console.log(showFavorites)
+    const depthLevel = 0;
 
     return (
-        <header className='header-main'>
+
+        <header className='header-main id="header"'>
             <div className='header-container'>
                 <div className="logo">
                     <a href="/">
@@ -16,20 +20,22 @@ export const Navbar = () => {
                     </a>
                 </div>
                 <div className="main-nav">
-                    <ul>
-                        {navBarData.map((item) => (
-                            <li key={item.name}>
-                                <a href="">{item.title}</a>
-                                <span className='arrow down'></span>
-                            </li>
+                    <ul className='main-nav-ul'>
+                        {navBarData.map((item, index) => (
+                            <Menuitems items={item} key={index} depthLevel={depthLevel}></Menuitems>
                         ))}
-                        <li><Link to="/contact">CONTACT</Link></li>
-                        <li><Link to="/about">ABOUT US</Link></li>
                     </ul>
                 </div>
                 <div className="login-section">
-                    <ul>
-                        <li><i class="fa-regular fa-circle-user"></i></li>
+                    <ul className='login-section-ul'>
+                        <li className='login-icon' id='login-icon' onMouseEnter={() => SetShowFavorites(true)} onMouseLeave={() => SetShowFavorites(false)} >
+                            <i class="fa-regular fa-circle-user" ></i>
+                            <div className={`favorites ${ showFavorites ? "show-favorites" : ""}`}>
+                                <i className='fa-regular fa-heart'></i>
+                                FAVORITES
+                                <span className='favorites-number'> 0 </span>
+                            </div>
+                        </li>
                         <li>
                             <button href='/' className='create-listing-btn'>CREATE A LISTING</button>
                         </li>
