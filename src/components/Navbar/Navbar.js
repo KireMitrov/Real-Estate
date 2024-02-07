@@ -12,7 +12,7 @@ export const Navbar = () => {
 
     return (
 
-        <header className='header-main id="header"'>
+        <header className='header-main' id="header">
             <div className='header-container'>
                 <div className="logo">
                     <a href="/">

@@ -1,5 +1,6 @@
 .header-main {
     background-color: transparent;
+    scroll-behavior: smooth;
 }
 
 .header-container {
@@ -131,6 +132,10 @@
 
 .down {
     transform: rotate(45deg);
+}
+
+.top {
+    transform: rotate(-135deg);
 }
 
 
