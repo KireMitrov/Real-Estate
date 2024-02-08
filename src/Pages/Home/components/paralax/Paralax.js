@@ -8,7 +8,7 @@ import icon4 from '../../../../assets/images/homePage/paralax/icon4.png'
 
 function Paralax() {
     return (
-        <div>
+        <div className='paralax-main-container'>
             <div className='paralax-background'>
                 <div className='paralax-background-overlay'></div>
                 <div className='paralax-line-top'></div>

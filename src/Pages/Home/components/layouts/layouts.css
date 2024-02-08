@@ -122,3 +122,18 @@
     left: -2px;
     top: 5px;
 }
+
+@media (min-width: 320px) and (max-width: 912px) {
+
+    .layouts-container {
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap:18px;
+    }
+
+    .layout-row {
+        max-width: 90%;
+    }
+}

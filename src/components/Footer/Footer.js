@@ -12,7 +12,7 @@ function Footer() {
                         <div className="footer-row-header">About Site</div>
                         <div className="footer-row-body">
                             <div className="footer-row-content">Houzez is a premium WordPress theme for real estate where modern aesthetics are combined with tasteful simplicity.</div>
-                            <div className="footer-row-link">Read more</div>
+                            <div className="footer-row-link"><a href="/">Read more</a></div>
                         </div>
                     </div>
                     <div className="row1">
@@ -23,7 +23,7 @@ function Footer() {
                                 <div className='footer-contact'><i class="fa-solid fa-phone"></i> +1 (800) 990 8877</div>
                                 <div className='footer-contact'><i class="fa-regular fa-envelope"></i> email@email.com</div>
                             </div>
-                            <div className="footer-row-link">Contact us</div>
+                            <div className="footer-row-link"><a href="contact">Contact us</a></div>
                         </div>
                     </div>
                     <div className="row2">

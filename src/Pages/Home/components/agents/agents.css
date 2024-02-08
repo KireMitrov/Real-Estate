@@ -55,3 +55,10 @@
     color: #00aeef;
     font-weight: 500;
 }
+
+@media (min-width: 320px) and (max-width: 912px) {
+
+    .agents-card-container {
+        flex-direction: column;
+    }
+}

@@ -43,3 +43,10 @@
     border-radius: 100px;
     margin-right: 20px;
 }
+
+@media (min-width: 320px) and (max-width: 912px) {
+
+    .testimonials-card-container {
+        flex-direction: column;
+    }
+}

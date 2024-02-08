@@ -95,3 +95,11 @@
     font-size: 12px;
     font-weight: 400;
 }
+
+
+@media (min-width: 320px) and (max-width: 912px) {
+
+    .types-column {
+        flex-direction: column;
+    }
+}

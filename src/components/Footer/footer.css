@@ -44,6 +44,15 @@ footer {
     font-weight: 600;
 }
 
+.footer-row-link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-row-link a:hover {
+    color: #00aeef;
+}
+
 .footer-bottom-container {
     background-color: #00335a;
 }
@@ -96,3 +105,5 @@ footer {
 .footer-bottom-row span {
     padding-left: 16px;
 }
+
+
