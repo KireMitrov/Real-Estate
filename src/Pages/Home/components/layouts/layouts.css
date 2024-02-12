@@ -126,7 +126,7 @@
 @media (min-width: 320px) and (max-width: 912px) {
 
     .layouts-container {
-        margin: 0;
+        /* margin: 0; */
         flex-direction: column;
         width: 100%;
         align-items: center;

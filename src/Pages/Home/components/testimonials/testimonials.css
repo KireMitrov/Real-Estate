@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .testimonials-card-container {
@@ -48,5 +49,9 @@
 
     .testimonials-card-container {
         flex-direction: column;
+    }
+
+    .testimonial-card {
+        width: 90%;
     }
 }

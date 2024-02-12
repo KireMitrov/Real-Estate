@@ -6,3 +6,9 @@
     justify-content: center;
     padding: 16px 0;
 }
+
+@media (min-width: 320px) and (max-width: 912px) {
+    .logos-container {
+        display: none;
+    }
+}

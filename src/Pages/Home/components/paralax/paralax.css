@@ -1,5 +1,7 @@
 .paralax-main-container {
+    position:relative;
     min-height: 100vh;
+    display: flex;
 }
 
 .paralax-background {
@@ -7,9 +9,10 @@
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
     position: absolute;
+    width: 100%;
+    height: calc( 100% + 90px);
+    top: 0;
     display: flex;
     justify-content: space-around;
 }
@@ -40,7 +43,7 @@
     align-items: center;
     justify-content:center;
     gap:32px;
-    min-height: 100vh;
+    min-height: 100%;
     width: 100%;
     flex-direction: column;
 }
@@ -50,7 +53,8 @@
     font-size: 30px;
     font-weight: 100;
     color: #fff;
-    width: 714px;
+    width: 60%;
+    margin: auto;
     line-height: 1.35em;
     text-align: center;
     z-index: 10;
@@ -59,7 +63,7 @@
 
 .paralax-cards-container {
     width: 940px;
-    height: 155px;
+    min-height: 155px;
     z-index: 1;
     display: flex;
     gap:2px;
@@ -90,14 +94,19 @@
 
 @media (min-width: 320px) and (max-width: 912px) {
     
+    .paralax-body-container {
+        margin-top: 90px;  
+    }
+
     .paralax-background {
-        min-height: 180vh;
+        min-height: 100%;
     }
 
     .paralax-cards-container {
         width: 100%;
         flex-direction: column;
         align-items: center;
+        height: 100%;
     }
 
     .paralax-card {
