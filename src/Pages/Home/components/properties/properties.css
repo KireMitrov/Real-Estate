@@ -154,3 +154,15 @@
     font-weight: 500;
     margin-bottom: 16px;
 }
+
+@media (min-width: 320px) and (max-width: 912px) {
+    
+    
+    .card-images {
+        width: 100%;
+    }
+
+    .property-card-img::before {
+        width: 100%;
+    }
+}

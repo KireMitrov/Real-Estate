@@ -21,6 +21,16 @@ function Properties() {
     slidesToScroll: 1
   };
 
+  const responive = {
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
   return (
     <div className='properties-main-container'>
       <Fade duration={3000}>
@@ -34,7 +44,7 @@ function Properties() {
         <button onClick={() => sliderRef.current.slickNext()}>Next</button>
       </div>
       <div className='slider-container'>
-        <Slider ref={sliderRef} {...settings}>
+        <Slider ref={sliderRef} {...( window.innerWidth > 920 ? {...settings} : {...responive}) }>
           {sliderData.map((property) => (
             <div className='card-container'>
               <div className='property-card-img'>
