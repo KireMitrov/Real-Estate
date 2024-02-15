@@ -6,6 +6,7 @@ import Menuitems from './components/menuItems/Menuitems';
 
 export const Navbar = () => {
 
+    const [toggleMenu, SetToggleMenu] = useState(false);
     const [showFavorites, SetShowFavorites] = useState(false);
     const depthLevel = 0;
 
@@ -42,13 +43,8 @@ export const Navbar = () => {
                 </div>
             </div>
             <div className="resp-header-container">
-                <ul className='resp-nav-ul'>
-                    {navBarData.map((item, index) => (
-                        <Menuitems items={item} key={index} depthLevel={depthLevel}></Menuitems>
-                    ))}
-                </ul>
                 <div className='resp-nav-right'>
-                    <button className="resp-btn"><i className="fa fa-bars"></i></button>
+                    <button className="resp-btn" onClick={() => SetToggleMenu(!toggleMenu)}><i className="fa fa-bars"></i></button>
                     <div className="resp-logo">
                         <a href="/">
                             <img src="https://default.houzez.co/wp-content/uploads/2016/03/logo-houzez-color.png" alt="logo" />
@@ -58,6 +54,13 @@ export const Navbar = () => {
                         <i class="fa-regular fa-circle-user"></i>
                     </div>
                 </div>
+            </div>
+            <div className={` ${toggleMenu ? "resp-dropdown-menu" : "hide-show" }`}>
+                <ul className='main-nav-ul'>
+                    {navBarData.map((item, index) => (
+                        <Menuitems items={item} key={index} depthLevel={depthLevel}></Menuitems>
+                    ))}
+                </ul>
             </div>
         </header>
     )
