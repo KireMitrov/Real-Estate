@@ -141,3 +141,17 @@
  .skype {
     background-color: #00aff0;
  }
+
+ @media (min-width: 320px) and (max-width: 912px) {
+    .contact-form-body {
+        flex-direction: column;
+    }
+
+    .contact-form-name {
+        flex-direction: column;
+    }
+
+    .contact-form-row {
+        width: 95%;
+    }
+ }

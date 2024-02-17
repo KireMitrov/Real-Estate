@@ -17,7 +17,7 @@
 .testimonial-card {
     background-color: #edf9ff;
     padding: 40px;
-    width: 33%;
+    max-width: 33%;
 }
 
 .quotation {
@@ -52,6 +52,6 @@
     }
 
     .testimonial-card {
-        width: 90%;
+        max-width: 100%;
     }
 }

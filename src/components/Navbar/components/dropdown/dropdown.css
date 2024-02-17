@@ -46,3 +46,14 @@
     margin-top: -38px;
     text-transform: uppercase;
 }
+
+
+@media (min-width: 320px) and (max-width: 912px) {
+    .dropdown li {
+        width: auto;
+    }
+
+    .dropdown-submenu {
+        margin-left: 92%;
+    }
+}

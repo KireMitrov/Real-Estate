@@ -108,3 +108,14 @@
 .fa-google-plus-g {
     color: #dd4b39;
 }
+
+
+@media (min-width: 320px) and (max-width: 912px) {
+    .team-card-container {
+        flex-direction: column;
+    }
+
+    .team-card {
+        width: 100%;
+    }
+}

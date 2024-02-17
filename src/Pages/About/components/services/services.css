@@ -39,3 +39,13 @@
     opacity: 1;
     background: transparent;
 }
+
+@media (min-width: 320px) and (max-width: 912px) {
+    .services-main-container {
+        flex-direction: column;
+    }
+
+    .services-row {
+        width: 100%;
+    }
+}

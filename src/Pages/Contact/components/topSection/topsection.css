@@ -24,3 +24,9 @@
     top:160px;
     left:12.5%;
 }
+
+@media (min-width: 320px) and (max-width: 912px) {
+    .contact-background-overlay {
+        top:60px;
+    }
+}

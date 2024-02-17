@@ -27,8 +27,9 @@
     position: absolute;
     width: 100%;
     height: 75vh;
-    left: 0px;
+    left: -34px;
     z-index: 0;
+    padding: 0;
 }
 
 .slideshow li span {
@@ -105,6 +106,7 @@
     font-size: 45px;
     font-weight: 300;
     text-align: center;
+    line-height: normal;
 }
 
 .welcome-text p {
@@ -198,7 +200,7 @@
     .welcome-cards-wrapper  {
         margin-top: 16px;
         flex-direction: column;
-        max-width: 100%;
+        max-width: 90%;
     }
     .welcome-card {
         width: 90%;

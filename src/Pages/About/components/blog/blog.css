@@ -97,3 +97,13 @@
 .blog-post-author-name {
     padding: 10px;
 }
+
+@media (min-width: 320px) and (max-width: 912px) {
+    .blog-cards-main-container {
+        flex-direction: column;
+    }
+
+    .blog-card {
+        width: 100%;
+    }
+}
